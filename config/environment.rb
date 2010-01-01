@@ -16,7 +16,7 @@ Rails::Initializer.run do |config|
 
   config.action_controller.session = {
     :session_key => '_seed_session',
-    :secret      => '70974e63857c8417f13ed8547170663f3a2efce6e42ad2dc760ce6a794b75a6e8dea0e45b43dd0c14f493be4560595b15267bed26742e22c25af42b0c3d7d9af'
+    :secret      => '24710eaf4fe9360fb647163a9ebe4d2688fb83c2e3ebdeb46a30822066cf47331e3b854431f7514c06e3c48b30ff4e8074e0a1d8422a1210a7eb18bd01af557e'
   }
 
   config.action_controller.session_store = :active_record_store
